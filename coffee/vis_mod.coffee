@@ -367,7 +367,7 @@ Network = () ->
       .style("stroke", (d) -> strokeFor(d))
       .style("stroke-width", 1.0)
 
-    node.on("mousedown", showDetails)
+    node.on("mouseover", showDetails)
       .on("mouseout", hideDetails)
 
     node.exit().remove()
@@ -450,7 +450,7 @@ Network = () ->
   showDetails = (d,i) ->
     content = '<p class="main">' + d.name + '</span></p>'
     content += '<hr class="tooltip-hr">'
-    content += '<p class="main">' + d.content + '</span></p>'
+    content += '<p class="main">' + d.artist + '</span></p>'
     tooltip.showTooltip(content,d3.event)
 
     # higlight connected links

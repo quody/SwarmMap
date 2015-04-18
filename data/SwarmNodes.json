@@ -1,0 +1,62 @@
+{
+	"nodes": [
+	{
+		"name": "Swarm Attacks",
+		"type": "General",
+		"id": "keskijuttu",
+		"title": "General overview",
+		"content": "Swarm Attacks are attacks performed with multiple drones some or all of which are armed.",
+		"playcount": 10000
+	},
+	{
+		"name": "Pehmeät sotilaskohteet",
+		"type": "1",
+		"id": "1",
+		"title": "Pehmeät sotilaskohteet",
+		"content": "Pehmeät sotilaskohteet ovat esimerkiksi",
+		"playcount": 1000
+	},	
+	{
+		"name": "Kovat sotilaskohteet",
+		"type": "2",
+		"id": "2",
+		"title": "General overview",
+		"content": "hurp",
+		"playcount": 1000
+	},
+	{
+		"name": "Pehmeät siviilikohteet",
+		"type": "3",
+		"id": "3",
+		"title": "General overview",
+		"content": "hurp",
+		"playcount": 1000
+	},
+	{
+		"name": "Kovat siviilikohteet",
+		"type": "4",
+		"id": "4",
+		"title": "General overview",
+		"content": "hurp",
+		"playcount": 1000
+	}
+	],
+	"links": [
+    {
+      "source": "keskijuttu",
+      "target": "1"
+    },
+    {
+      "source": "keskijuttu",
+      "target": "2"
+    },
+    {
+      "source": "keskijuttu",
+      "target": "3"
+    },
+    {
+      "source": "keskijuttu",
+      "target": "4"
+    }
+	]
+}
